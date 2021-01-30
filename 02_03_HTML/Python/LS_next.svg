@@ -1,0 +1,13 @@
+<svg width="22" height="22" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="24" width="24" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse ry="174" rx="188" id="svg_1" cy="246" cx="320" fill-opacity="null" stroke-opacity="null" stroke-width="4.5" stroke="#00007f" fill="#fff"/>
+  <path id="svg_6" d="m78.90065,233.69882l83.51689,-83.51643l-83.51689,-83.51703l47.73413,-47.72898l131.26115,131.24601l-131.26115,131.28673" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" stroke="#00007f" fill="#fff"/>
+  <path stroke="#00007f" id="svg_8" d="m11.03256,1.00651c-5.69902,0 -10.31901,4.54712 -10.31901,10.15625c0,5.60911 4.62,10.15625 10.31901,10.15625c5.69902,0 10.31901,-4.54714 10.31901,-10.15625c0,-5.60913 -4.61999,-10.15625 -10.31901,-10.15625zm-1.65781,16.95214l-2.51069,-2.47324l4.39276,-4.32319l-4.39276,-4.32319l2.51069,-2.4711l6.90398,6.79429l-6.90398,6.79643z" fill-opacity="null" stroke-opacity="null" stroke-width="0.5" fill="#fff"/>
+ </g>
+</svg>
