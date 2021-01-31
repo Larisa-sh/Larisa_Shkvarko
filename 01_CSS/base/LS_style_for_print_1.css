@@ -1,0 +1,7 @@
+@import 'LS_link_to_style.css';
+body {
+    background-color: #000;
+    font-family: serif;
+    font-size: 55px;
+    color: #fff;
+}
