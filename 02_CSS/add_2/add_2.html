@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .fon {
+            background-color: ghostwhite;
+            display: flex;
+            flex-direction: column;
+        }
+        .block_1-3 {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+        }
+        .block_1-2 {
+            display: flex;
+            flex-direction: column;
+        }
+        .block_1 {
+            width: 15em;
+            background-color: gainsboro;
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+        }
+        .block_2 {
+            background-color: rgb(175, 173, 173);
+            display: flex;
+            flex-direction: column;
+            margin-bottom: .2em;
+            flex-grow: inherit;
+        }
+        .block_3 {
+            background-color: rgb(175, 173, 173);
+            display: flex;
+            flex-direction: column;
+            margin-bottom: .2em;
+       }
+        .block_4 {
+            background-color: gainsboro;
+        }
+        .text {
+            margin-bottom: 0px; 
+        }
+        .text_block_4 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .icon_mail {
+            display: block;
+            margin-left: auto;
+        }
+        h2 {
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+    <body>
+        <div class="fon">
+            <div class="block_1-3">
+                <div class="block_1" >
+                    <h2>Блок навигации</h2>
+                    <ul> 
+                        <li>Ширина 15em</li>
+                        <li>Должен присутствовать цвет фона</li>
+                        <li>Располагается слева</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error iusto neque ad. Officia ea quia blanditiis, itaque corporis consequatur molestias nulla earum impedit facere eum cupiditate odit reprehenderit animi deserunt?</li>
+                    </ul>
+                </div>
+                <div class="block_1-2">
+                    <div class="block_2">
+                        <h2 class="state"> Статья 1</h2>
+                        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima totam voluptas modi laborum tenetur fugiat expedita non architecto officia autem. Quas illo suscipit sunt, ea incidunt ipsa dolore ullam porro? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium beatae earum ipsum, delectus sequi corrupti quod explicabo facere similique, excepturi nulla. Quia temporibus ab accusamus ratione at nostrum facilis magni?</p>            
+                    </div>
+                    <div class="block_3">
+                        <h2 class="state">Статья 2</h2>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos unde voluptatem, reprehenderit tenetur est nemo maxime adipisci, necessitatibus officiis, officia veniam. Libero eaque debitis consequatur maxime consectetur non asperiores nostrum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam asperiores commodi a vel veritatis unde doloremque cumque aliquam itaque alias deleniti dolorum eligendi, officia enim id? Praesentium totam autem est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quis explicabo voluptatum ratione hic optio reiciendis, nostrum impedit quae, consequatur suscipit sequi ducimus assumenda porro quo dolorum velit! Dolor, ad? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex repudiandae sequi illum aliquid veniam explicabo tenetur vel maxime delectus numquam vero, fugit culpa provident, aspernatur esse autem? Distinctio, doloremque asperiores. <img src="icon_mail.png" alt="icon_mail" class="icon_mail"></p>            
+                    </div>
+                </div>
+            </div>
+            <div class="block_4"><p class="text_block_4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque obcaecati, error magnam molestiae ipsa expedita unde quibusdam atque cumque voluptatum animi? Odit eligendi amet voluptas molestias dolorum ducimus ipsa quis.</p></div>
+        </div>
+    </body>
+</html>
