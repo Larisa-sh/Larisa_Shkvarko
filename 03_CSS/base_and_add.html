@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .week{
+            display: flex;
+            flex-direction: row; 
+            height: 20px;  
+        }
+        .menu {
+            opacity: 0;
+            margin-top: 3px;
+        }
+        div.week > div  {
+            background-color: gainsboro; 
+            border: solid 1px black;
+            border-radius: 5px;
+            color: gray;
+            margin-top: -1px;
+            width: 8em;
+            position: relative;
+        }
+        div.week > div:hover {
+            background-color: gray;
+            color: gainsboro;
+        }
+        div.menu > div {
+            display: block;
+            background-color: gainsboro; 
+            border: solid 1px black;
+            border-radius: 5px;
+            color: gray;
+            margin-top: -1px;
+            width: 8em;
+            margin-left: -1px;
+            margin-bottom: 1px;
+            z-index:1;
+        }
+        .week_day:hover > .menu { 
+            opacity: 1;  
+            transition: 2s;        
+        }
+        @media all and (max-width: 926px){
+            .week{
+            display: flex;
+            flex-direction: column; 
+              
+            }
+            .week_day {
+            height: 20px; 
+
+            }
+            .menu {
+                opacity: 0;
+                margin-top: -19px;
+                margin-left: 130px;
+                height: 20px;
+            }
+            div.week > div  {
+                background-color: gainsboro; 
+                border: solid 1px black;
+                border-radius: 5px;
+                color: gray;
+                margin-top: -1px;
+                width: 8em;
+                position: relative;
+            }
+            div.week > div:hover {
+                background-color: gray;
+                color: gainsboro;
+            }
+            div.menu > div {
+                display: block;
+                background-color: gainsboro; 
+                border: solid 1px black;
+                border-radius: 5px;
+                color: gray;
+                margin-top: -1px;
+                width: 8em;
+                margin-left: -1px;
+                margin-bottom: 1px;
+                
+            }
+            .week_day:hover > .menu { 
+                opacity: 1;  
+                transition: 2s;  
+                z-index:999;     
+            }
+        }
+    </style>
+</head>
+    <body>
+        <div class="week">
+            <div class="week_day">Понедельник
+                <div class="menu">
+                    <div>Завтрак</div>
+                    <div>Обед</div>
+                    <div>Ужин</div>
+                </div>
+            </div>
+            <div class="week_day">Вторник
+                <div class="menu">
+                    <div>Завтрак</div>
+                    <div>Обед</div>
+                    <div>Ужин</div>
+                </div>
+            </div>
+            <div class="week_day">Среда
+                <div class="menu">
+                    <div>Завтрак</div>
+                    <div>Обед</div>
+                    <div>Ужин</div>
+                </div>
+            </div>
+            <div class="week_day">Четверг
+                <div class="menu">
+                    <div>Завтрак</div>
+                    <div>Обед</div>
+                    <div>Ужин</div>
+                </div>
+            </div>
+            <div class="week_day">Пятница
+                <div class="menu">
+                    <div>Завтрак</div>
+                    <div>Обед</div>
+                    <div>Ужин</div>
+                </div>
+            </div>
+            <div class="week_day">Суббота
+                <div class="menu">
+                    <div>Завтрак</div>
+                    <div>Обед</div>
+                    <div>Ужин</div>
+                </div>
+            </div>
+            <div class="week_day">Воскресенье
+                <div class="menu">
+                    <div>Завтрак</div>
+                    <div>Обед</div>
+                    <div>Ужин</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
