@@ -32,6 +32,20 @@
             p a[href*="files/document.zip"]::after {
                 content: url('pic/logo-zip.gif');
             }
+            a[href*="files/document.doc"]::after {
+                content: url('pic/logo-doc.jpg');
+                opacity: 0;
+            }
+            li:hover a[href*="files/document.doc"]::after {
+                content: url('pic/logo-doc.jpg');
+                opacity: 1;
+                transition: 1s;
+            }
+            li:hover a[href*="files/document.zip"]::after {
+                content: url('pic/logo-zip.gif');
+                opacity: 1;
+                transition: 1s;
+            }
 		</style>	
         </HEAD> 
         <BODY>
