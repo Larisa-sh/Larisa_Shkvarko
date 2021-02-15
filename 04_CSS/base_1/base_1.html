@@ -13,38 +13,57 @@
                 text-align: justify;
                 padding: 5px;
             }
-            li::before {
-                content: url('pic/logo-list.jpg');
-            }
             ul {
-                list-style-type: none;
-                padding-left: 10px;
+                list-style-image: url(pic/logo-list.jpg);
             }
-            a[href*="wikipedia.org"]::before {
-                content: url('pic/extref.png');
+            p a:first-child {
+                background-image: url('pic/extref.png');
+                background-repeat: no-repeat;
+                padding-left: 14px;
             }
-            p a[href*="files/document.doc"]::after {
-                content: url('pic/logo-doc.jpg');
+            p a[href*="files/document.doc"] {
+                background-image: url('pic/logo-doc.jpg');
+                background-repeat: no-repeat;
+                padding-right: 18px;
+                background-position-x: right;
             }
-            a[href*="files/document.pdf"]::after {
-                content: url('pic/logo-pdf.png');
+            p a[href*="files/document.pdf"] {
+                background-image: url('pic/logo-pdf.png');
+                background-repeat: no-repeat;
+                padding-right: 18px;
+                background-position-x: right;
             }
-            p a[href*="files/document.zip"]::after {
-                content: url('pic/logo-zip.gif');
+            p a[href*="files/document.zip"] {
+                background-image: url('pic/logo-zip.gif');
+                background-repeat: no-repeat;
+                padding-right: 18px;
+                background-position-x: right;
             }
-            a[href*="files/document.doc"]::after {
-                content: url('pic/logo-doc.jpg');
-                opacity: 0;
+            li a[href*="files/document.doc"] {
+                background-image: none;               
             }
-            li:hover a[href*="files/document.doc"]::after {
-                content: url('pic/logo-doc.jpg');
-                opacity: 1;
-                transition: 1s;
+            li a[href*="files/document.pdf"] {
+                background-image: url('pic/logo-pdf.png');
+                background-repeat: no-repeat;
+                padding-right: 18px;
+                background-position-x: right;               
             }
-            li:hover a[href*="files/document.zip"]::after {
-                content: url('pic/logo-zip.gif');
-                opacity: 1;
-                transition: 1s;
+            li a[href*="files/document.zip"] {
+                background-image: none;              
+            }
+            li a[href*="files/document.doc"]:hover {
+                background-image: url('pic/logo-doc.jpg');
+                background-repeat: no-repeat;
+                padding-right: 18px;
+                background-position-x: right;     
+                transition: 0s;          
+            }
+            li a[href*="files/document.zip"]:hover {
+                background-image: url('pic/logo-zip.gif');
+                background-repeat: no-repeat;
+                padding-right: 18px;
+                background-position-x: right;    
+                transition: 0s;              
             }
 		</style>	
         </HEAD> 
